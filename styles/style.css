@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+/* herder style */
+.header{
+    background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 25px;
+    color:black;
+}
+.nav{
+    text-align:left;
+    margin-right:130px;
+    margin-left: 130px;
+
+}
+.main-title{
+    margin-bottom: 20px;
+    text-align: left;
+    width: 400px;
+   
+}
+.paragraph{
+    font-weight: 700px;
+    font-size: 18px;
+    text-align: left;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.button{
+    background-color: orangered;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* adding image */
+.image{
+    margin-top: 300px;
+    display: flex;
+    text-align: center;
+    margin-left: 50px 60px;
+   
+}
+.making-process{
+  
+    align-items: center;
+}
+.problems{
+    font-weight: 700px;
+    font-size: 45px;
+    margin-top: 150px;
+}
+    
+   
+
+.problem-title{
+    font-weight: 400px;
+    font-size: 15px;
+    margin-top: 25px;
+    width: 400px;
+    
+    margin-bottom:50px ;
+    
+}
+.li-menu{
+    list-style:decimal ;
+}
