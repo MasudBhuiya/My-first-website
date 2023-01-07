@@ -43,31 +43,42 @@
 }
 /* adding image */
 .image{
-   display: flex;
+    text-align: center;
    margin-top: 100px;
    margin-left: 60px;
+   display: flex;
+   justify-items: center ;
    
    
 }
+.image-sr{
+    margin-left: 400px;
+
+}
+
 .my-problems{
-   margin-left: 50px;
+   margin-left: 600px;
     display: block;
     margin-top: 150px;
     margin-left: 100px;
+    align-items: center;
+
 }
     
 
 .problems{
+    margin-top:150px ;
     font-weight: 700px;
-    font-size: 45px;
-    
+    font-size: 55px;
+   
+   
 }
     
    
 
 .problem-title{
-    font-weight: 400px;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 25px;
     margin-top: 25px;
     width: 400px;
     
@@ -76,40 +87,98 @@
 }
 .li-menu{
      justify-content: space-between;
-     list-style:lower-roman;
+     
      font-weight: 400px;
-    font-size: 18px;
+    font-size: 22px;
+    width: 300px;
+    list-style: lower-roman;
 }
 /* htird section */
 .third-header{
-    text-align: center;
+   text-align: center;
+   margin-left: 220px;
+   
 
-    align-items: center;
-    font-weight: 400px;
-    font-size: 25px;
-    margin-top:80px ;
 
 }
 .head{
-    margin-top: 80px;
+    margin-top: 150px;
     text-align: center;
     font-weight: 700px;
     font-size: 40px;
 }
  .planes-title{ 
-    
-    text-align: center;
+    margin: 20px 400px;
+   
     display: flex;
- 
+    max-width: 1400px;
     gap: 40px;
-    margin: 10px 250px;
+    
     font-weight: 700px;
     font-size: 20px;
 }
 .planes-sub-title{
     margin-top: 30px;
-    
+    margin-bottom: 20px;
     gap: 30px;
+}
     
+/* }second background */
+.fourth-header{
+    margin-top: 100px;
+}
+.footer-title{
+    margin-top: 220px;
+    padding-left: 180px;
+    text-align: left;
+   background-color: black;
+   color: white;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   display: flex;
+   
+}
+.future{
+    font-weight: 700px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.future-sub-title{
+    font-weight: 400px;
+    font-size: 30px;
+    width: 400px;
+    margin-bottom:20px ;
+}
+.websites{
+    display: flex;
     
 }
+.website-new{
+    margin-left: 10px;
+    
+}
+
+.subscribe{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 450px;
+   margin-top: 150px;
+   
+}
+.subscribe-title{
+    margin-bottom: 30px;
+}
+.email{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px 10px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.button{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
