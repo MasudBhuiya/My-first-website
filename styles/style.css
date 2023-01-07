@@ -3,7 +3,7 @@
 }
 /* herder style */
 .header{
-    background-image: url("../images/banner2.png");
+    background-image: url('../images/banner2.png');
     background-repeat: no-repeat;
     height: 500px;
     background-size: cover;
@@ -152,7 +152,7 @@
     font-size: 35px;
     color:black;
     width: 100%;
-    background-image:url("../images/watch.png") ;
+    background-image:url('../images/watch.png') ;
 }
 .positive-mindset{
     padding-bottom: 150px;
@@ -192,9 +192,7 @@
     margin-left: 10px;
     /* subscribe us */
 }
-.same{
-    
-}
+
 
 .subscribe{
     font-weight: 700;
