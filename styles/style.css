@@ -3,14 +3,14 @@
 }
 /* herder style */
 .header{
-    background-image: url(../images/banner1.png);
+    background-image: url(../images/banner2.png);
     background-repeat: no-repeat;
     height: 500px;
     background-size: cover;
     
     padding-top: 100px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     color:black;
 }
 .nav{
@@ -93,13 +93,23 @@
     width: 300px;
     list-style: lower-roman;
 }
-/* htird section */
+
+
+/* third section */
 .third-header{
    text-align: center;
-   margin-left: 220px;
-   
-
-
+   font-weight:700;
+    width: 800px;
+    margin-left: 400px;
+}
+.plane{
+    font-weight:700px;
+    width: 800px;;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-bottom: 80px;
 }
 .head{
     margin-top: 150px;
@@ -108,10 +118,9 @@
     font-size: 40px;
 }
  .planes-title{ 
-    margin: 20px 400px;
+   text-align: center;
+    display:flex; 
    
-    display: flex;
-    max-width: 1400px;
     gap: 40px;
     
     font-weight: 700px;
@@ -121,12 +130,38 @@
     margin-top: 30px;
     margin-bottom: 20px;
     gap: 30px;
-}
     
-/* }second background */
-.fourth-header{
-    margin-top: 100px;
+    text-align: center;
 }
+.fourth-head{
+    text-align: center;
+  margin-left: 10px;
+  margin-right: 300px;
+}
+.fourth-header-title{
+    margin-top: 80px;
+    background-repeat: no-repeat ;
+   
+    margin-left: 300px;
+    
+    
+    padding-top: 60px;
+    padding-bottom: 65px;
+    padding-right: 100px;
+    font-weight: 700;
+    font-size: 35px;
+    color:black;
+    
+    background-image:url(../images/watch.png) ;
+}
+.positive-mindset{
+    padding-bottom: 150px;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+
+/* adding footer */
 .footer-title{
     margin-top: 220px;
     padding-left: 180px;
@@ -155,6 +190,9 @@
 }
 .website-new{
     margin-left: 10px;
+    /* subscribe us */
+}
+.same{
     
 }
 
