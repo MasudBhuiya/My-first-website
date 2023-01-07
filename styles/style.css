@@ -15,7 +15,7 @@
 }
 .nav{
     text-align:left;
-    margin-right:130px;
+    
     margin-left: 130px;
 
 }
@@ -43,27 +43,31 @@
 }
 /* adding image */
 .image{
-    margin-top: 300px;
-    display: flex;
-    text-align: center;
-    margin-left: 50px 60px;
+   display: flex;
+   margin-top: 100px;
+   margin-left: 60px;
+   
    
 }
-.making-process{
-  
-    align-items: center;
+.my-problems{
+   margin-left: 50px;
+    display: block;
+    margin-top: 150px;
+    margin-left: 100px;
 }
+    
+
 .problems{
     font-weight: 700px;
     font-size: 45px;
-    margin-top: 150px;
+    
 }
     
    
 
 .problem-title{
     font-weight: 400px;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 25px;
     width: 400px;
     
@@ -71,5 +75,41 @@
     
 }
 .li-menu{
-    list-style:decimal ;
+     justify-content: space-between;
+     list-style:lower-roman;
+     font-weight: 400px;
+    font-size: 18px;
+}
+/* htird section */
+.third-header{
+    text-align: center;
+
+    align-items: center;
+    font-weight: 400px;
+    font-size: 25px;
+    margin-top:80px ;
+
+}
+.head{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 40px;
+}
+ .planes-title{ 
+    
+    text-align: center;
+    display: flex;
+ 
+    gap: 40px;
+    margin: 10px 250px;
+    font-weight: 700px;
+    font-size: 20px;
+}
+.planes-sub-title{
+    margin-top: 30px;
+    
+    gap: 30px;
+    
+    
 }
